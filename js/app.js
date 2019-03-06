@@ -7,5 +7,6 @@ function valider(name, param) {
             $("#contenu").html(result);
         }
     });
+    
     return false;
 }
