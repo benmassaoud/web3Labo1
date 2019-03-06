@@ -12,7 +12,7 @@
             fclose($fh);
         }
     }
-
+    //Importer le fichier programmeurs.txt
     importer('data/programmeurs.txt');
 
     function listeProgrammeursJour($array, $jour){
@@ -25,6 +25,7 @@
         return $resultat;
     }
 
+    //Top consommateur
     function topBuveur($array){
         $resultat= array();
         for ($i=0; $i < count($array); $i++) {
